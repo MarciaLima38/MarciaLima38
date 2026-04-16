@@ -1,4 +1,4 @@
-# 🔐 AMM Cybersecurity Lab
+# 🛡️ AMM-Cybersecurity-Lab
 
 Projeto de cibersegurança que simula uma infraestrutura empresarial completa com capacidades de ataque, defesa, deteção e resposta.
 
@@ -16,6 +16,21 @@ Este laboratório foi desenvolvido no âmbito do curso CET103 e inclui:
 * Simulação de ataques reais
 
 ---
+
+Bem-vindo ao meu projeto final de Cybersecurity. Este repositório contém ferramentas de automação para testes de segurança.
+
+## 📂 Estrutura do Repositório
+
+* **[scripts/](./scripts/)**: Aqui você encontra o script principal `ataques_AMM.sh`.
+* **docs/**: Documentação e prints da arquitetura (em breve).
+
+## 🚀 Como testar o script
+
+Para rodar o script de ataques automatizados, siga os comandos abaixo no seu terminal Linux:
+
+1. **Acesse a pasta:**
+   ```bash
+   cd scripts
 
 ## 🏗️ Arquitetura
 
