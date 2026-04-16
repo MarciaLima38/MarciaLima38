@@ -1,0 +1,48 @@
+#!/bin/bash
+# =============================================================================
+#  Script temporário para Print de Ecrã - Grupo AMM
+#  (IPs mascarados para proteção de privacidade)
+# =============================================================================
+
+# --- Cores ---
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+WHITE='\033[1;37m'
+NC='\033[0m' 
+
+# --- IPs Mascarados para o Print ---
+ATTACKER_IP="10.10.XX.XX"
+VENUS_WAN="10.20.XX.XX"
+MARTE_WAN="10.30.XX.XX"
+
+clear
+
+# Banner ASCII Art
+echo -e "${RED}"
+echo "  ██████╗ ███████╗██████╗      █████╗ ███╗   ███╗███╗   ███╗"
+echo "  ██╔══██╗██╔════╝██╔══██╗    ██╔══██╗████╗ ████║████╗ ████║"
+echo "  ██████╔╝█████╗  ██║  ██║    ███████║██╔████╔██║██╔████╔██║"
+echo "  ██╔══██╗██╔══╝  ██║  ██║    ██╔══██║██║╚██╔╝██║██║╚██╔╝██║"
+echo "  ██║  ██║███████╗██████╔╝    ██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║"
+echo "  ╚═╝  ╚═╝╚══════╝╚═════╝     ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝"
+echo -e "${YELLOW}        [ Zona RED — CET103 Wargaming — Grupo AMM ]${NC}"
+echo -e "${WHITE}  IP Atacante (Kali): ${CYAN}${ATTACKER_IP}${NC}"
+echo -e "${WHITE}  Venus WAN (Snort) : ${CYAN}${VENUS_WAN}${NC}"
+echo -e "${WHITE}  Marte WAN (Suricata): ${CYAN}${MARTE_WAN}${NC}"
+echo ""
+
+# Simulação da linha de Log que aparece na sua imagem
+echo -e "${WHITE}Log: ${YELLOW}/home/formando/projeto_AMM/ataques_log_$(date +%Y%m%d_%H%M%S).txt${NC}"
+echo ""
+
+# Menu simplificado apenas para o visual
+echo -e "${WHITE}╔══════════════════════════════════════════════╗${NC}"
+echo -e "${WHITE}║      MENU DE ATAQUES — Grupo AMM             ║${NC}"
+echo -e "${WHITE}╚══════════════════════════════════════════════╝${NC}"
+echo -ne "${YELLOW}Opção: ${NC}"
+
+# Pausa para você conseguir tirar o print antes de fechar
+read -n 1
+exit
