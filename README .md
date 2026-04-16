@@ -4,7 +4,7 @@
 > **Unidade de Formação:** UF9197 — Wargaming  
 > **Instituição:** CINEL — Centro de Formação Profissional da Indústria Electrónica, Energia, Telecomunicações e Tecnologias da Informação (Polo de Lisboa)  
 > **Data:** Março 2026  
-> **Grupo AMM:** António Silva · Márcia Lima · Mateus Silva
+> **Grupo AMM:** António · Márcia · Mateus 
 
 ---
 
