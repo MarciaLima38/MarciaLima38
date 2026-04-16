@@ -17,17 +17,6 @@ Este laboratório foi desenvolvido no âmbito do curso CET103 e inclui:
 
 ---
 
-Bem-vindo ao meu projeto final de Cybersecurity. ---
-
-## ⚠️ Aviso Legal / Disclaimer
-
-Este repositório foi criado exclusivamente para fins **educativos e de investigação** como parte do projeto final do curso CET103. 
-
-1. A autora não se responsabiliza por qualquer uso indevido, danos ou atividades ilícitas realizadas com as ferramentas aqui disponibilizadas.
-2. A execução destes scripts em redes das quais não possui autorização expressa é ilegal.
-3. Este laboratório foi desenhado para ambiente controlado (Wargaming).
----
-
 ## 🏗️ Arquitetura
 
 Ambiente segmentado em 4 zonas:
@@ -72,7 +61,13 @@ Ferramenta desenvolvida para automatizar ataques.
 chmod +x scripts/ataques_AMM.sh
 ./scripts/ataques_AMM.sh --menu
 ```
+## ⚠️ Aviso Legal / Disclaimer
 
+Este repositório foi criado exclusivamente para fins **educativos e de investigação** como parte do projeto final do curso CET103. 
+
+1. A autora não se responsabiliza por qualquer uso indevido, danos ou atividades ilícitas realizadas com as ferramentas aqui disponibilizadas.
+2. A execução destes scripts em redes das quais não possui autorização expressa é ilegal.
+3. Este laboratório foi desenhado para ambiente controlado (Wargaming).
 ---
 
 ## 🟠 DMZ (Zona Orange)
