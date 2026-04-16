@@ -2,7 +2,7 @@
 # =============================================================================
 #  ataques_AMM.sh — Script de Automação de Testes de Segurança
 #  Projeto Final CET103 — Técnico Especialista em Cibersegurança
-#  Grupo AMM: António Silva, Márcia Lima, Mateus Silva
+#  Grupo AMM: António, Márcia, Mateus
 #  UF9197 — Wargaming | CINEL, Lisboa | Março 2026
 # =============================================================================
 #
