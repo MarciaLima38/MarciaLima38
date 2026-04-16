@@ -61,6 +61,8 @@ Ferramenta desenvolvida para automatizar ataques.
 chmod +x scripts/ataques_AMM.sh
 ./scripts/ataques_AMM.sh --menu
 ```
+📸 Evidências: Podes consultar as capturas de ecrã da interface na pasta /docs.
+
 ## ⚠️ Aviso Legal / Disclaimer
 
 Este repositório foi criado exclusivamente para fins **educativos e de investigação** como parte do projeto final do curso CET103. 
