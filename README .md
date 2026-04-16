@@ -1,3 +1,120 @@
+# 🔐 AMM Cybersecurity Lab
+
+Infraestrutura completa de cibersegurança desenvolvida no âmbito do curso CET103.
+
+---
+
+## 🧠 Overview
+
+Este projeto simula um ambiente empresarial com múltiplas camadas de segurança:
+
+* Segmentação de rede (VLANs)
+* Firewalls (pfSense + OPNsense)
+* SIEM (Wazuh)
+* IDS/IPS (Suricata, Snort)
+* VPNs seguras
+* Ataques controlados (Red Team)
+
+---
+
+## 🏗️ Arquitetura
+
+* 🔴 RED – Ataques (Kali Linux)
+* 🟠 ORANGE – DMZ (Web + WAF)
+* 🟢 GREEN – Rede interna (AD, SIEM)
+* 🔵 GESTÃO – Administração segura
+
+---
+
+## ⚙️ AMM Attack Tool
+
+Script de automação de ataques:
+
+📂 `scripts/ataques_AMM.sh`
+
+### 🔥 Funcionalidades
+
+* Menu interativo
+* Argumentos CLI
+* Port scanning (Nmap)
+* SYN Flood (hping3)
+* Logs automáticos (`attack.log`)
+* Verificação de bloqueio
+
+---
+
+## ▶️ Uso
+
+```bash
+chmod +x scripts/ataques_AMM.sh
+./scripts/ataques_AMM.sh --menu
+```
+
+### Exemplos
+
+```bash
+./scripts/ataques_AMM.sh --venus-scan
+./scripts/ataques_AMM.sh --marte-flood
+```
+
+---
+
+## 🔴 Red Team
+
+* Port scanning
+* DoS attacks
+* Automação de ataques
+* Validação de deteção (Wazuh + Suricata)
+
+---
+
+## 🟠 DMZ (Zona Orange)
+
+* Apache / Nginx
+* WAF (ModSecurity)
+* IIS (Windows Core)
+
+---
+
+## 🟢 Monitorização
+
+* Wazuh SIEM
+* Syslog centralizado
+* Deteção em tempo real
+
+---
+
+## ⚠️ Nota
+
+O script foi reconstruído com base na documentação do projeto original.
+
+---
+
+## 👨‍💻 Autores
+
+* António Silva
+* Márcia Lima
+* Mateus Silva
+
+---
+
+## 🎯 Objetivo
+
+Simular um ambiente real de cibersegurança com:
+
+* Ataque
+* Defesa
+* Deteção
+* Resposta
+
+---
+
+
+
+
+
+
+
 # 🛡️ CET103 — Projeto Final: Infraestrutura de Cibersegurança
 
 > **Curso:** Técnico Especialista em Cibersegurança — Nível 5 (CET103)  
