@@ -17,20 +17,16 @@ Este laboratório foi desenvolvido no âmbito do curso CET103 e inclui:
 
 ---
 
-Bem-vindo ao meu projeto final de Cybersecurity. Este repositório contém ferramentas de automação para testes de segurança.
+Bem-vindo ao meu projeto final de Cybersecurity. ---
 
-## 📂 Estrutura do Repositório
+## ⚠️ Aviso Legal / Disclaimer
 
-* **[scripts/](./scripts/)**: Aqui você encontra o script principal `ataques_AMM.sh`.
-* **docs/**: Documentação e prints da arquitetura (em breve).
+Este repositório foi criado exclusivamente para fins **educativos e de investigação** como parte do projeto final do curso CET103. 
 
-## 🚀 Como testar o script
-
-Para rodar o script de ataques automatizados, siga os comandos abaixo no seu terminal Linux:
-
-1. **Acesse a pasta:**
-   ```bash
-   cd scripts
+1. A autora não se responsabiliza por qualquer uso indevido, danos ou atividades ilícitas realizadas com as ferramentas aqui disponibilizadas.
+2. A execução destes scripts em redes das quais não possui autorização expressa é ilegal.
+3. Este laboratório foi desenhado para ambiente controlado (Wargaming).
+---
 
 ## 🏗️ Arquitetura
 
