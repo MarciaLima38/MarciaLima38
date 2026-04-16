@@ -3,7 +3,10 @@
 #  ataques_AMM.sh — Script de Automação de Testes de Segurança
 #  Projeto Final CET103 — Técnico Especialista em Cibersegurança
 #  Grupo AMM 
-#  UF9197 — Wargaming | CINEL, Lisboa | Abril 2026
+#  UF9197 — Wargaming | CINEL, Lisboa | Março 2026
+
+#  AVISO: Este script é para fins exclusivamente didáticos. O uso em
+#  sistemas sem autorização é ilegal e de inteira responsabilidade do utilizador.
 # =============================================================================
 
 # --- Cores para output ---
